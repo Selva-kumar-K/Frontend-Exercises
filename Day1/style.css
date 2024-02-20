@@ -1,0 +1,47 @@
+
+.p-tag{
+    color:red;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#mytitle{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+}
+
+#myintro{
+    position: absolute;
+    top:0;
+    z-index: 0;
+}
+
+#overflow-test{
+    background: #4CAF50;
+    overflow: scroll;
+    color:black;
+    height: 100px;
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+}
+/* #overflow-test{
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+} */
+
+.d{
+    background-color: aquamarine;
+    float: left;
+}
+
+.d > p{
+    float: right;
+}
