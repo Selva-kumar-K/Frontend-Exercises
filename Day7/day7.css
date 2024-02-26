@@ -1,0 +1,678 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 855px){
+
+    .nav-content-left-container{
+        display: none;
+    }
+    .nav-left-container > .nav-menus{
+        display: none;
+    }
+
+    .nav-right-container > .nav-menus{
+        display: none;
+    }
+
+    .mobile-container{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .mobile-center-container > img{
+        width: 130px;
+    }
+
+    .fa-bars,.fa-magnifying-glass,.bi-cart3,.bi-person-plus{
+        font-size: 18px;
+        color: gray;
+    }
+
+    .bi-person-plus{
+        border-radius: 20px;
+        border: 1px solid rgb(83, 83, 83);
+        padding: 5px;
+    }
+
+    i{
+        margin-right: 10px;
+    }
+
+    .top-image-container{
+        width: 100%;
+        height: 40vh;
+        background-image: url(./assets/microsoft-home-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+    }
+
+    .content{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 270px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-bottom: 1px solid rgb(220, 218, 218);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .content > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+
+    .control-container{
+        font-size: 18px;
+        width: 100%;
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 500px;
+        gap: 20px;
+        /* position: absolute;
+        top: 500px;
+        left: 150px; */
+    }
+    .control-container p{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20%;
+    }
+
+    .link-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 55px;
+        margin-top: 290px;
+    }
+    
+    
+    .fa-brands, .bi-tv{
+        font-size: 30px;
+    }
+    
+    .link-menu > p{
+        margin-top: 15px;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        line-height: 1.7;
+    }
+    
+    p > a{
+        color: rgb(15, 102, 149);
+    }
+
+    .middle-image-container{
+        width: 100%;
+        height: 40vh;
+        background-image: url(./assets/xbox-image.jepg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+    }
+
+    .content{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 270px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-bottom: 1px solid rgb(220, 218, 218);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .content > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+
+    .card-container{
+        width: 90%;
+        margin: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 28px;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .card{
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .card > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+    
+    .card > p > a{
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .middle-image-container{
+        width: 90%;
+        margin: auto;
+        height: 60vh;
+        background-image: url(./assets/xbox-image.jepg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .content{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 420px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-bottom: 1px solid rgb(220, 218, 218);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .content > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (min-width: 857px) and (max-width: 1079px){
+
+    .mobile-container{
+        display: none;
+    }
+
+    .image{
+        width: 130px;
+        margin-top: -5px;
+    }
+    ul > .special{
+        display: none
+    }
+
+    .nav-content-left-container{
+        /* border: 5px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    ul {
+        color: rgb(60, 60, 60);
+        list-style-type: none;
+        display: flex;
+        gap: 16px;
+        font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 0.813rem;
+    }
+
+    li > i{
+        margin-left: 5px;
+    }
+
+    .left-image-container{
+        /* border: 2px solid blue; */
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-right-container{
+        /* border: 2px solid red; */
+    }
+
+    .top-image-container{
+        width: 100%;
+        height: 40vh;
+        background-image: url(./assets/microsoft-home-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+    }
+
+    .content{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 270px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-bottom: 1px solid rgb(220, 218, 218);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .content > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+
+    .control-container{
+        font-size: 18px;
+        width: 100%;
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 500px;
+        gap: 20px;
+        /* position: absolute;
+        top: 500px;
+        left: 150px; */
+    }
+    .control-container p{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20%;
+    }
+
+    .link-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 55px;
+        margin-top: 290px;
+    }
+    
+    
+    .fa-brands, .bi-tv{
+        font-size: 30px;
+    }
+    
+    .link-menu > p{
+        margin-top: 15px;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        line-height: 1.7;
+    }
+    
+    p > a{
+        color: rgb(15, 102, 149);
+    }
+
+    
+    .card-container{
+        width: 90%;
+        margin: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 28px;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .card{
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .card > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+    
+    .card > p > a{
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .middle-image-container{
+        width: 90%;
+        margin: auto;
+        height: 60vh;
+        background-image: url(./assets/xbox-image.jepg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .content{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 420px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border-bottom: 1px solid rgb(220, 218, 218);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .content > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (min-width:1080px){
+    .mobile-container{
+        display: none;
+    }
+
+    .nav-content-left-container{
+        width: 90%;
+        margin: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .image{
+        width: 135px;
+        margin-top: -5px;
+    }
+
+    ul {
+        color: rgb(60, 60, 60);
+        list-style-type: none;
+        display: flex;
+        gap: 16px;
+        font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 0.813rem;
+    }
+
+    .left-image-container{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    li > i{
+        margin-left: 5px;
+    }
+
+    .fa-bars,.fa-magnifying-glass,.bi-cart3,.bi-person-plus{
+        font-size: 15px;
+        color: gray;
+    }
+
+    .bi-person-plus{
+        border-radius: 50px;
+        border: 1px solid rgb(83, 83, 83);
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .header{
+        margin-top: 10px;
+    }
+
+    .top-image-container{
+        width: 99.4%;
+        height: 70vh;
+        margin: auto;
+        background-image: url(./assets/microsoft-home-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: right; */
+        position: relative;
+    }
+
+    .content{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        /* top: 270px; */
+        padding: 50px;
+        display: flex;
+        width: 30vw;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 100px;
+        margin-left: 50px;
+        /* border-bottom: 1px solid rgb(220, 218, 218);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    }
+
+    .content > h1{
+        font-size: 2.4rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+
+    .control-container{
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 500px;
+        gap: 30px;
+        margin-top: 10px;
+        /* position: absolute;
+        top: 500px;
+        left: 150px; */
+    }
+    .control-container p{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20%;
+    }
+
+    .link-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 55px;
+        margin-top: 150px;
+    }
+    
+    
+    .fa-brands, .bi-tv{
+        font-size: 30px;
+    }
+    
+    .link-menu > p{
+        margin-top: 15px;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        line-height: 1.7;
+    }
+    
+    p > a{
+        color: rgb(15, 102, 149);
+    }
+
+    .card-container{
+        width: 90%;
+        margin: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        gap: 28px;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .card{
+        /* border: 2px solid red; */
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .card > h1{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+    
+    .card > p > a{
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .middle-image-container{
+        width: 90%;
+        margin: auto;
+        height: 70vh;
+        background-image: url(./assets/xbox-image.jepg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .content{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 80px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .content > h1{
+        font-size: 2.6rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .content > button{
+        width: 214px;
+        background-color: rgb(39, 102, 185);
+        padding: 14px;
+        border-radius: 2px;
+        border: none;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 0.933rem;
+        font-weight: 600;
+    }
+}
